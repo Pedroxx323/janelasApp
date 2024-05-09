@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ir para Sobre nós"
-        android:id="@+id/btnMenuPrincipal"
+        android:id="@+id/btnSobreNos"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"/>
 
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="voltar para login"
-        android:id="@+id/btnMenuPrincipalVoltar"
+        android:id="@+id/btnLoginVoltar"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"/>
 </LinearLayout>
