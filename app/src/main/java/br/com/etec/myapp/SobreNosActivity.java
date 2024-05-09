@@ -29,7 +29,7 @@ Button btnvoltarmenuprincipal;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),Menu_Principal_Activity.class);
-                startActivity();
+                startActivity(intent);
                 finish();
             }
         });

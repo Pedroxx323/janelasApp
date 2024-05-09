@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),Menu_Principal_Activity.class);
-                startActivity();
+                startActivity(intent);
                 finish();
             }
         });
@@ -40,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),SplashActivity.class);
-                startActivity();
+                startActivity(intent);
                 finish();
             }
         });

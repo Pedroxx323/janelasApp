@@ -33,7 +33,7 @@ public class Menu_Principal_Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent= new Intent(getApplicationContext(),LoginActivity.class);
-                startActivity();
+                startActivity(intent);
                 finish();
             }
 
@@ -42,7 +42,7 @@ public class Menu_Principal_Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent =new Intent(getApplicationContext(),SobreNosActivity.class);
-                startActivity();
+                startActivity(intent);
                 finish();
             }
         });
